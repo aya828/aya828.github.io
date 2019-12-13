@@ -11,13 +11,13 @@ h2 {
 }
 
 .body-border {
-    margin:0;
+    margin: -10px;
     display: block;
     box-sizing: border-box;
     background-color: white;
     border: 1px solid #cccccc;
     height: 144px;
-    width: 1400px;
+    width: 1428px;
     padding-top: 25px;
     padding-bottom: 100px;
     position: relative;
@@ -62,14 +62,19 @@ a{
 
 h1 {
     
-    font-size: 50px;
-    display: inline-table;
-    border: 1px solid #4aaaa5;
-    background-color: #4aaaa5;
+    font-size: 37.8px;
+    
 }
 
 div.name {
+    display: inline-table;
+    border: 1px solid #4aaaa5;
+    background-color: #4aaaa5;
+    padding-left: 60px;
+    padding-right: 60px;
     text-align: center;
+    margin-left: 232px;
+    margin-bottom: 50px;
     
 }
 
@@ -94,6 +99,7 @@ footer {
     text-align: center;
     border: 1px solid #666666;
     background-color: #666666;
+    
 }
 
 #foot-font {
