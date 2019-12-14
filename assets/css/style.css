@@ -94,19 +94,14 @@ p {
 }
 
 footer {
-    text-align: center;
-    border: 1px solid #666666;
+    border-top: 8px solid #4aaaa5;
     background-color: #666666;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
-#foot-font {
-    color: #ffffff;
-}
-
-#foot {
-    border: 5px solid #4aaaa5;
-    background-color: #4aaaa5;
-    margin-bottom: -1px;
+footer p {
+    color: white;
 }
 
 form {
@@ -152,13 +147,13 @@ div.img-block img {
 
 div.img-block p {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: 0;
     width: 200px;
     z-index: 10;
     background-color: #4aaaa5;
     color: white;
-    padding: 12px;
+    padding: 5px;
     text-align: center;
     box-sizing: border-box;
 }
